@@ -1,0 +1,2 @@
+rootProject.name = "TP12Phone"
+include ':app'

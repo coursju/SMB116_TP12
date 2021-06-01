@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/space_size"
+        android:layout_marginLeft="@dimen/space_size"
+        android:layout_marginEnd="@dimen/space_size"
+        android:layout_marginRight="@dimen/space_size"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_size" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="uneNotificationClick"
+            android:text="@string/une_notification" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_size" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="notificationAcImageClick"
+            android:text="@string/notification_ac_image" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_size" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="lancementPageWebClick"
+            android:text="@string/lancement_page_web" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_size" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="iconeEtBarreProgressionClick"
+            android:text="@string/icone_et_barre_progression" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_size" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="longTexteClick"
+            android:text="@string/long_texte" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_size" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="lanceAppliSurTelClick"
+            android:text="@string/lance_appli_sur_tel" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_size" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

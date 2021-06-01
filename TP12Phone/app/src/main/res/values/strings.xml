@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TP12Phone</string>
+    <string name="une_notification">Une notification</string>
+    <string name="notification_ac_image">Une notification avec image</string>
+    <string name="lancement_page_web">au clique, lancement page web</string>
+    <string name="icone_et_barre_progression">Icone et barre de progression</string>
+    <string name="long_texte">affiche un long texte</string>
+    <string name="lance_appli_sur_tel">Lancement d\' une appli sur le téléphone</string>
+</resources>

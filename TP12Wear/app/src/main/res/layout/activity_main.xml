@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/inner_frame_layout_padding"
+        app:layout_boxedEdges="all">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@android:style/Widget.Material.Light.ProgressBar.Horizontal"
+            android:layout_width="@dimen/icon_progress_size"
+            android:layout_height="@dimen/icon_progress_size"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_baseline_access_time_24"
+            android:indeterminateOnly="false"
+            android:progress="20"
+            android:progressDrawable="@drawable/circular_progress_bar" />
+
+    </FrameLayout>
+</androidx.wear.widget.BoxInsetLayout>
